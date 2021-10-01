@@ -15,5 +15,5 @@
       "name": "res"
     }
   ],
-  "scriptFile": "../dist/getShippingInfo/index.js"
+  "scriptFile": "../dist/ShippingInformation/index.js"
 }
