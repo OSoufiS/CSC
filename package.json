@@ -7,9 +7,13 @@
     "watch": "tsc -w",
     "prestart": "npm run build",
     "start": "func start",
+    "run": "tsc && func start",
     "test": "echo \"No tests yet...\""
   },
-  "dependencies": {},
+  "dependencies": {
+    "@azure/cosmos": "^3.14.1",
+    "dotenv": "^10.0.0"
+  },
   "devDependencies": {
     "typescript": "^3.3.3"
   }
